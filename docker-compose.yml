@@ -8,6 +8,7 @@ services:
     ports:
       - "5432:5432"
     environment:
+      POSTGRES_DB: "fake_store_api"
       POSTGRES_PASSWORD: "1234"
     volumes:
       - "./src/main/resources/sql/:/docker-entrypoint-initdb.d"
