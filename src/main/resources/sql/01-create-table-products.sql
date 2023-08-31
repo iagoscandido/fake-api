@@ -1,0 +1,10 @@
+--CREATE TABLE default.products (
+--    id BIGSERIAL NOT NULL,
+--    title VARCHAR(55) NOT NULL,
+--    price  NOT NULL,
+--    category VARCHAR() NOT NULL,
+--    description TEXT, NOT NULL,
+--    created_at date not null,
+--    CONSTRAINT products PRIMARY KEY (id),
+--
+--);
